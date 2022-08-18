@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    height: 100vh;
+}
+
+.flex-container{ 
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-item{
+    width: 30vw;
+    margin-right: 0px;
+    border: none;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+
+}
+
+
+.flex-item2{
+    background-color: beige;
+    width: 70vw;
+    border: none;
+}
+
+
+.contain{
+    border: 1px solid blue;
+    border-style: none;
+    background-color: #FFFFF5;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0px 3px 10px  0px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.dothis{
+    margin-bottom: 10px;
+}
+
+.uc{
+    font-size: x-small;
+    font-weight: bold;
+}
+
+.contain1{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.contain2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.contain3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+label{
+    margin-right: 100px;
+    /* margin-bottom: 5px; */
+}
+
+
+input{
+    outline: none;
+    padding: 4px 10px 4px 10px;
+    width: 20vw;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0px 3px 10px  0px rgba(0, 0, 0, 0.4);
+}
+
+input[type=password]:invalid {
+    outline: none;
+    border: 1px solid red;
+}
+
+
+.thisis{
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-style:hidden;
+    box-shadow: 0px 3px 10px  0px rgba(0, 0, 0, 0.4);
+    
+}
+
+button:hover{
+    background-color: green;
+}
+
+footer{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.imgsidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.odin{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 5px 10px;
+    /* text-align: center; */
+    margin-top: 40%;
+    background-color: rgba(2, 2, 2, 0.5);
+    border-style: none;
+}
+
+@font-face {
+    font-family: NorseBold;
+    src: url(Norse-Bold.otf.ttf);
+}
+
+.pp{
+    color: white;
+    padding-top: 10px;
+   font-family: NorseBold;
+   font-size: 60px;
+}
+
+img{
+    width:60px;
+    height: 80px;
+}
+
+.classp{
+    border: 1px solid green;
+    text-align: center;
+    /* margin-top: 96vh; */
+    /* box-sizing: border-box; */
+    border: none;
+    
+}
+
+.p{
+    color: rgba(253, 253, 255, 0.5);
+    margin-top: 57vh;
+}
+
+
+#yoo{
+    text-decoration: underline;
+}
+
+a:link{
+    color: #596D48;
+    text-decoration: none;
+}
+a:visited{
+    color: #596D48
+}
+
+a:hover{
+    color: green;
+}
